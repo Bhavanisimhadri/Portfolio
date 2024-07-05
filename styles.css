@@ -1,0 +1,178 @@
+
+#bb{
+    margin-left:900px;
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+#b{
+    
+    margin-left:40px;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.parentss, .parentss1, .parentss2 {
+    display: flex;
+    flex-basis: auto;
+}
+
+.child2 {
+    display: flex;
+    flex-basis: auto;
+}
+
+.child1 {
+    display: flex;
+}
+
+#a {
+    height: 50px;
+    width: 100px;
+    background-color: #b5d9fa;
+    border-radius: 50%;
+  }
+
+#bb:hover, #b:hover {
+    color: #0073e6;
+}
+
+h3 {
+    margin-left: 5px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#blue {
+    height: 20px;
+    width: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#blue:hover {
+    transform: rotate(360deg);
+}
+
+#me {
+    margin-top: 60px;
+    margin-left: 300px;
+    height: 450px;
+    width: 430px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#me:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#hello {
+    margin-top: 150px;
+    animation: slideInFromTop 1s ease-in-out;
+}
+
+@keyframes slideInFromTop {
+    from { transform: translateY(-100%); }
+    to { transform: translateY(0); }
+}
+
+#c {
+    margin-left: 70px;
+}
+
+button {
+    margin-left: 70px;
+    background-color: #61a3d9;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.6;
+    transition: opacity 0.3s, background-color 0.3s, transform 0.3s ease-in-out;
+}
+
+button:hover {
+    opacity: 1;
+    background-color: #0073e6;
+    transform: scale(1.1);
+}
+
+.class5 {
+    display: flex;
+    flex-basis: auto;
+}
+
+#d, #e {
+    margin-top: 60px;
+}
+
+#d {
+    margin-left: 470px;
+}
+
+#e {
+    margin-left: 210px;
+}
+
+.section {
+    margin: 20px;
+    padding: 20px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card h4 {
+    margin: 0 0 10px;
+}
+
+.card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card ul li {
+    text-align: left;
+}
+ #hello{
+    margin-left:65px;
+ }
+
+
